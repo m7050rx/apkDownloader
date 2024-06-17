@@ -7,9 +7,9 @@ This PHP script serves as a download proxy for APK and XAPK files from a specifi
 
 1. **Cross-Origin Resource Sharing (CORS) Header**:
    ```php
-   header("Access-Control-Allow-Origin: https://www.game4free.tn");
+   header("Access-Control-Allow-Origin: *");
    ```
-   - This line allows cross-origin requests from the domain `https://www.game4free.tn`. It's a security feature to control who can access resources on your server.
+   - This line allows cross-origin requests from the domains `*`. It's a security feature to control who can access resources on your server.
 
 2. **Parameter Validation**:
    ```php
